@@ -80,7 +80,7 @@
 
       <div class="apps-list">
 
-        <a href="/brand/lakme" class="app-item">
+        <div class="app-item">
           <div class="figure-wrapper">
             <div class="figure-bg">
               <img src="https://1000logos.net/wp-content/uploads/2020/04/Lakme-Logo-1996.jpg">
@@ -103,12 +103,12 @@
               </div>
             </div>
             <div class="action-buttons">
-              <button>Show Coupan Code</button>
+              <button onClick="toggleModal(event)">Show Coupan Code</button>
             </div>
           </div>
-        </a>
+        </div>
 
-        <a href="/brand/lakme" class="app-item">
+        <div class="app-item">
           <div class="figure-wrapper">
             <div class="figure-bg">
               <img src="https://1000logos.net/wp-content/uploads/2020/04/Lakme-Logo-1996.jpg">
@@ -131,14 +131,42 @@
               </div>
             </div>
             <div class="action-buttons">
-              <button>Show Coupan Code</button>
+              <button onClick="toggleModal(event)">Show Coupan Code</button>
             </div>
           </div>
-        </a>
+        </div>
 
       </div>
       <!-- Section End -->
 
+    </div>
+  </div>
+
+  <div class="modal-overlay active" onclick="closeModal(event)">
+    <div class="modal-content">
+      <div class="close-btn" onclick="hideModal()">
+        <button></button>
+      </div>
+      <div class="coupan-data-wrapper">
+        <div class="figure-wrapper">
+          <div class="figure-bg">
+            <img src="https://1000logos.net/wp-content/uploads/2020/04/Lakme-Logo-1996.jpg">
+          </div>
+          <img src="https://1000logos.net/wp-content/uploads/2020/04/Lakme-Logo-1996.jpg" class="figure">
+        </div>
+        <p class="coupan-description app-title">
+          Minimum Order: $200 for All Customers
+        </p>
+        <div class="coupan-code-placeholder">
+          <span>
+            LAKME25
+          </span>
+        </div>
+        <div class="action-buttons">
+          <button>Copy Code</button>
+          <p class="price">View All</p>
+        </div>
+      </div>
     </div>
   </div>
 
