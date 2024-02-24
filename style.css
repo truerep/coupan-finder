@@ -716,19 +716,18 @@ a, button {
     padding: 70px 0 0;
   }
 
-  .app-icon img {
-    height: 70px;
-    width: 70px;
-    border-radius: 10px;
+  .app-icon {
+    width: 80px;
   }
 
   .app-info-container {
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-bottom: 10px;
+    /* align-items: start; */
   }
 
   .app-info {
-    padding: 10px 0;
+    padding: 10px 0 10px 20px;
   }
 
   .app-info .app-rating-wrapper {
