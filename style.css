@@ -541,6 +541,12 @@ a, button {
   cursor: pointer;
 }
 
+@media (max-width: 576px) {
+  .modal-content .close-btn {
+    right: 20px;
+  }
+}
+
 /* Coupan Modal Popup Content */
 .coupan-data-wrapper {
   max-height: calc(100vh - 210px);
