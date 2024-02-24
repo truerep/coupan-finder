@@ -32,6 +32,7 @@ a, button {
   text-decoration: none;
   outline: 0;
   border: 0;
+  pointer: cursor;
 }
 
 .container {
